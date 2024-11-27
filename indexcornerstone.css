@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Roboto' !important;
+    color: #171717 !important;
+    background-color: #F0F0F0;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px 0px #7070701A;
+}
+
+.divider {
+    background-color: #C8A85F;
+    width: 60px;
+    height: 4px;
+}
+
+.form-group input, .form-group select {
+    border-radius: 4px;
+    border: 1px solid #E9ECEF;
+    padding: 10px 12px;
+} 
+
+.form-label {
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 16.41px;
+    margin-bottom: 0.5rem !important;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.bg-main {
+    background-color: #075458;
+}
+
+.bg-main-2 {
+    background-color: #BBC72B;
+}
+
+.bg-main-3 {
+    background-color: #F3F6D5;
+}
+
+.bg-secondary {
+    color: #C8A85F;
+}
+
+.text-main {
+    color: #075458;
+}
+
+.text-main-2 {
+    color: #BBC72B;
+}
+
+.text-main-3 {
+    color: #F3F6D5;
+}
+
+.text-secondary {
+    color: #C8A85F;
+}
+
+.h1 {
+    font-size: 24px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+.h3 {
+    font-size: 18px;
+}
+
+.h4 {
+    font-size: 16px;
+}
+
+.h5 {
+    font-size: 14px;
+}
+
+.h6 {
+    font-size: 12px;
+}
+
+.btn-hidden {
+    background-color: #F0F0F0;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 4px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.btn-main {
+    background-color: #BBC72B;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 4px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border: 1px solid #BBC72B;
+    color: #BBC72B;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 4px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.btn-tertiary {
+    background-color: #fff;
+    border: 1px solid #DEE2E6;
+    color: #BBC72B;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 14px;
+    border-radius: 4px;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    background-color: #075458;
+}
+
+.btn-main:disabled {
+    background-color: #70707033;
+    color: #707070;
+    cursor: no-drop;
+}
+
+.btn-secondary:hover {
+    background-color: #F3F6D5;
+}
+
+.btn-secondary:disabled {
+    background-color: #70707033;
+    color: #707070;
+    border: 1px solid #70707033;
+    cursor: no-drop;
+}
+
+.btn-tertiary:hover {
+    background-color: #F3F6D5;
+}
+
+.dashboard-menu {
+    padding: 16px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.dashboard-menu:hover, .dashboard-menu.active {
+    background-color: #BBC72B !important;
+}
+
+:root {
+    --primaryColor: #075458;
+    --lightPrimaryColor: #BBC72B;
+    --accentColor: #F3F6D5;
+    --secondaryColor: #C8A85F;
+}
